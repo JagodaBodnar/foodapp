@@ -1,7 +1,9 @@
 import React from 'react';
 
-
-const Page = ({params}) => {
+type Props = {
+  params: { id: string }
+}
+const Page = ({params}: Props) => {
   return (
     <div>
       {params.id}
