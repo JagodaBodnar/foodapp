@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="page-wrapper">
-      <header>
+      <header className="home-header">
         <h1> A genuine fine-dining experience awaits.</h1>
       </header>
       <main>

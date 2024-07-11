@@ -1,0 +1,23 @@
+.meals-main {
+    width: 90%;
+    max-width: 90rem;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.meals-share__button {
+    background: #f5842c;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.meals-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
