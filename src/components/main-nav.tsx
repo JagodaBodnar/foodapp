@@ -1,16 +1,17 @@
 import './main-nav.css'
-import Image from "next/image";
-import logo from "@/app/assets/logo.png";
 import Link from "next/link";
 import NavLink from "@/components/navlink/navlink";
+import {GiKnifeFork} from "react-icons/gi";
 
 const MainNav = () => {
 
   return (
     <nav className="main-nav">
-      <Link href="/"><Image src={logo} alt="logo"/></Link>
-      <NavLink  href="/meals" linkName="Meals"/>
-      <NavLink  href="/community" linkName="Community"/>
+      <Link href="/"><GiKnifeFork className="main-nav__logo"/></Link>
+      <div className="main-nav__wrapper">
+        <NavLink href="/" linkName="Home"/>
+        <NavLink href="/meals" linkName="Meals"/>
+      </div>
     </nav>
   );
 };

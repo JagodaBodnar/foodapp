@@ -1,8 +1,9 @@
 .nav-link {
     text-decoration: none;
+    color: #fff;
+    font-size: 30px;
 }
 
 .nav-link.active {
-    color: rebeccapurple;
-    font-weight: 600;
+    color: #f5842c;
 }

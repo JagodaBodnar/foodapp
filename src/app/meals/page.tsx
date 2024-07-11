@@ -1,6 +1,7 @@
-import React from 'react';
+import {getMeals} from "@/api/api";
 
-const MealsPage = () => {
+const MealsPage = async() => {
+const meal = await getMeals();
 
   return (
     <div>
