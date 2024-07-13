@@ -1,0 +1,89 @@
+.share-header {
+    gap: 3rem;
+    margin: 3rem auto 5rem auto;
+    width: 90%;
+    max-width: 75rem;
+    color: #2B2B2C;
+    font-size: 1.5rem;
+}
+
+.share-header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #f9572a, #ff8a05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.share-main {
+    width: 90%;
+    max-width: 75rem;
+    margin: 3rem auto;
+    color: white;
+}
+
+.share-form {
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.share-form input,
+.share-form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+.share-form__label {
+    color: black;
+}
+
+.share-form input:focus,
+.share-form textarea:focus {
+    outline-color: #f99f2a;
+}
+
+.share-form__row {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.share-actions {
+    text-align: right;
+}
+
+.share-actions {
+    border: 0;
+    padding: 0.75rem 2rem;
+    background: linear-gradient(90deg, #f9572a, #ff9b05);
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.25rem;
+}
+
+.share-actions:hover,
+.share-actions:focus {
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+}
+
+.share-actions:disabled,
+.share-actions:hover:disabled,
+.share-actions:focus:disabled {
+    background: #ccc;
+    color: #979797;
+    cursor: not-allowed;
+}

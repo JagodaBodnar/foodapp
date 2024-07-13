@@ -1,0 +1,45 @@
+.image-picker__controls {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.image-picker input {
+    display: none;
+}
+
+.image-picker__button {
+    border: 0;
+    padding: 0.5rem 1.5rem;
+    background: #a4abb9;
+    border-radius: 2px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.image-picker .button:hover,
+.image-picker .button:focus {
+    background: #b3b9c6;
+}
+
+.image-picker__preview {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #a4abb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a4abb9;
+    position: relative;
+}
+
+.image-picker__preview p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.image-picker__preview img {
+    object-fit: cover;
+}

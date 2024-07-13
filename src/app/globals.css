@@ -16,45 +16,27 @@ body {
 .custom-shape-divider-top-1720504008 svg {
     position: relative;
     display: block;
-    width: calc(165% + 5px);
-    height: 200px;
+    width: calc(175% + 15px);
+    height: 160px;
 }
 
 .custom-shape-divider-top-1720504008 .shape-fill {
     fill: #2b2b2c;
 }
 
-header{
+.not-found-page {
     display: flex;
-    justify-content: center;
-}
-
-.page-wrapper{
-    margin-top: 100px;
-}
-
-.slideshow-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-}
-
-.slideshow-button{
-    text-decoration: none;
-    background: #f5842c;
-    color: #fff;
-    padding: 20px;
-}
-
-.slideshow-title{
-    display: flex;
-    gap: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    margin-top: 10%;
 }
-.home-header{
-    margin: 30px 0;
+
+.not-found-page h1 {
+    color: #f5842c;
+    font-size: 45px;
+}
+
+.not-found-page p {
+    font-size: 25px;
 }
