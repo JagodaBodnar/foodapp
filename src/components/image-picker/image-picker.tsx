@@ -43,7 +43,7 @@ const ImagePicker = ({name, label}: Props) => {
 
         <button type="button" className="image-picker__button"
                 onClick={handlePickClick}>
-          Pick and image
+          Pick an image
         </button>
         <div className="image-picker__preview">
           {!image && <p>No image picked yet.</p>}
